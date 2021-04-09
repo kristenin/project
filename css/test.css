@@ -1,0 +1,195 @@
+body{
+    background-color: rgb(242, 242, 242);
+    margin-left: 10%;
+    margin-right: 10%;
+    /* text-align: center; */
+    border: 2px dotted black;
+    font-family: sans-serif;
+    /* line-height: 1.5em; */
+    display: block;
+}
+#tops{
+    background-color:rgb(242, 242, 242);
+}
+.logo{
+    background-color:rgb(242, 242, 242);
+    margin: 0;
+    
+}
+.logo .img1{
+    height: 120px; 
+    width: 15%; 
+    border: 0;
+    float: left;
+}
+.logo .img2{
+    height: 120px; 
+    width: 85%;
+    border: 0;
+    float: right;
+}
+/* .search{
+    width: 30%;            
+    /* margin: 100px auto; */
+    /* display: flex; */
+    /*border: 1px solid red;*/
+/* }
+.search input{
+    float: right;
+    flex: 4;
+    height: 30px;
+    outline: none;
+    border: 1px solid red;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+.search button{ */
+    /* float: right;
+    flex: 1;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border-style: none;
+    outline: none;
+}
+.search button i{
+    font-style: normal;
+}
+.search button:hover{
+    font-size: 16px;
+} */ 
+.bgds img{
+    width: 100%;
+    height: 230px;
+    border: 0;
+    display: block;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+}
+h3{
+    font-family: sans-serif;
+    color: black;
+    /* border-bottom: 1px solid black; */
+}
+.nav{
+    width: 100%;
+    height: auto;
+    background: rgba(12, 159, 179, 0.534);
+    margin: 0 auto;
+    overflow: hidden;
+}
+.navuls{
+    width: 900px;
+    margin: 0 auto;
+    height: 68px;
+}
+.navuls li {
+    float: left;
+    line-height: 68px;
+    position: relative;
+    z-index: 999;
+}
+.navuls li a {
+    padding: 0 36px;
+    color: #fff;
+    font-family: Adobe 黑体 Std;
+    font-size: 19px;
+}
+ul li{
+    list-style: none;
+}
+.cont{
+    width: 100%;
+    height: auto;
+    background-color:rgb(201, 195, 195);
+    border: 0;
+    margin-top: 5px;
+}
+.survey{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    /* background: #f2f2f2;  */
+    margin: 0px 2px 5px 10px;
+}
+.survey h3 {
+    width: 93%;
+    margin: 5px 3.5% 0 3.5%;
+    border-bottom: 2px solid #dadada;
+    height: 44px;
+    text-align: center;
+}
+.survey .jianjie {
+    width: 90%;
+    margin: 10px 5px 20px 3px;
+    line-height: 36px;
+    font-size: 18px;
+}
+.bottoms {
+}
+.btmjs{
+    display: flex;
+    background-color: rgba(12, 159, 179, 0.534);
+    margin-top: 0;
+}
+.btmjs h3{
+    margin-top: 0px;
+    color: white;
+}
+.contact{
+    margin-left: 70px;
+    float: left;
+}
+.contact h3, .friendship h3 {
+    float: left;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Adobe 黑体 Std;
+    width: 120px;
+}
+.contact, .friendship {
+    width: 580px;
+    color: #fff;
+    /* margin-top: 60px; */
+    height: auto;
+    overflow: hidden;
+}
+.friendship{
+    width: 670px;
+    /* float: right; */
+}
+
+.friendship ul {
+    width: 530px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    list-style: none;
+}
+.friendship ul li {
+    float: left;
+    line-height: 28px;
+    padding-left: 30px;
+    padding-right: 40px;
+    margin-bottom: 14px;
+}
+.friendship ul li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+.btmdiv {
+    background: #353535;
+    line-height: 58px;
+    text-align: center;
+    color: #b1b1b1;
+    font-size: 14px;
+}
+.btmdiv p {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
